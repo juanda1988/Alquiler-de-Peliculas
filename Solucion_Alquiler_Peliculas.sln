@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_Presentacion", "01_Presentacion", "{AD6FDEEE-D09D-4189-AE20-C45FAFB1D60A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_Logica Negocio", "02_Logica Negocio", "{B42A1892-FE1D-48E6-84B7-201F76ECECF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03_Acceso Datos", "03_Acceso Datos", "{7B0F5E14-6714-4156-ADC0-47D632F7AD22}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04_Entidades", "04_Entidades", "{2053CB71-17B2-4620-B36D-162B168626B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{1E47B277-6EF3-4970-AE0D-1F09B7D14D6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccesoDatos", "AccesoDatos\AccesoDatos.csproj", "{7ABED80A-091B-4DDD-A4E2-C78E184C8FF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicaNegocio", "LogicaNegocio\LogicaNegocio.csproj", "{33853043-0EF7-4439-B950-0698C22CE7C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CA_Peliculas", "CA_Peliculas\CA_Peliculas.csproj", "{2FE14447-859E-4D40-B3E3-5EA56BF0B8F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WF_Peliculas", "WF_Peliculas\WF_Peliculas.csproj", "{9FC2910E-8E4E-4AC3-A586-EB3DB721C1E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E47B277-6EF3-4970-AE0D-1F09B7D14D6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E47B277-6EF3-4970-AE0D-1F09B7D14D6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E47B277-6EF3-4970-AE0D-1F09B7D14D6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E47B277-6EF3-4970-AE0D-1F09B7D14D6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ABED80A-091B-4DDD-A4E2-C78E184C8FF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ABED80A-091B-4DDD-A4E2-C78E184C8FF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ABED80A-091B-4DDD-A4E2-C78E184C8FF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ABED80A-091B-4DDD-A4E2-C78E184C8FF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33853043-0EF7-4439-B950-0698C22CE7C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33853043-0EF7-4439-B950-0698C22CE7C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33853043-0EF7-4439-B950-0698C22CE7C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33853043-0EF7-4439-B950-0698C22CE7C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FE14447-859E-4D40-B3E3-5EA56BF0B8F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FE14447-859E-4D40-B3E3-5EA56BF0B8F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FE14447-859E-4D40-B3E3-5EA56BF0B8F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FE14447-859E-4D40-B3E3-5EA56BF0B8F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FC2910E-8E4E-4AC3-A586-EB3DB721C1E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FC2910E-8E4E-4AC3-A586-EB3DB721C1E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FC2910E-8E4E-4AC3-A586-EB3DB721C1E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FC2910E-8E4E-4AC3-A586-EB3DB721C1E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1E47B277-6EF3-4970-AE0D-1F09B7D14D6D} = {2053CB71-17B2-4620-B36D-162B168626B6}
+		{7ABED80A-091B-4DDD-A4E2-C78E184C8FF7} = {7B0F5E14-6714-4156-ADC0-47D632F7AD22}
+		{33853043-0EF7-4439-B950-0698C22CE7C3} = {B42A1892-FE1D-48E6-84B7-201F76ECECF4}
+		{2FE14447-859E-4D40-B3E3-5EA56BF0B8F4} = {AD6FDEEE-D09D-4189-AE20-C45FAFB1D60A}
+		{9FC2910E-8E4E-4AC3-A586-EB3DB721C1E6} = {AD6FDEEE-D09D-4189-AE20-C45FAFB1D60A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A6329E0-406B-4D6C-8EB6-240068769F8E}
+	EndGlobalSection
+EndGlobal
